@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Form test server</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dark.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div class="divform">
+    <form class="formulario" action="CadastroServlet" method="get">
+        <div >
+            <label class="nome" for="name">Nome</label>
+            <input type="text" placeholder="Ex: Felipe Balbino">
+        </div>
+        <div>
+            <label class="nome" for="telefone">Telefone</label>
+            <input type="number" name="telefone" id="cellphone" placeholder="(00)123456789">
+        </div>
+        <div>
+            <label class="nome" for="email">Email</label>
+            <input type="email" >
+        </div>
+        <div>
+            <label class="nome" for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="21"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </div> 
+</body>
+</html>
